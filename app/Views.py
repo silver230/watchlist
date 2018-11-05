@@ -27,7 +27,8 @@ def index ():
     popular_movies = get_movies('popular')
     print(popular_movies)
     title = 'Home - Welcome to The best Movie Review Website Online'
-    return render_template('index.html', title = title,popular = popular_movies)
+    return render_template('index.html', title = title, popular = popular_movies, upcoming = upcoming_movie, now_showing = now_showing_movie )
+
     
 
 def movie():
