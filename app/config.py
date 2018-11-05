@@ -25,3 +25,8 @@ class DevConfig(Config):
     '''
 
     DEBUG = True
+class Config:
+    '''
+    General configuration parent class
+    '''
+    MOVIE_API_BASE_URL = 'https://api.themoviedb.org/3/movie/550?api_key=df68aabef207489b3d32af3fd67f93bf'
