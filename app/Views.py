@@ -32,5 +32,5 @@ def movie():
     View root page function that returns the movie page and its data
     '''
 
-    title = 'Home - Welcome to The best Movie Review Website Online'
+    title = f'Here is your best {movie_id}'
     return render_template('movie.html', title = title)
