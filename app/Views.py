@@ -1,7 +1,7 @@
 
 from flask import render_template
 from app import app
-from .request import get_movies
+from .request import get_movies,get_movie
 
 
 
