@@ -1,0 +1,1 @@
+Gweb: gunicorn manage:app
